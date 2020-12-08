@@ -1,5 +1,5 @@
 # cookie-stand
-# LAB - Number
+# LAB - 05
 
 ## Project Name
 
