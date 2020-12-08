@@ -9,4 +9,11 @@ function randomNumber (min, max){
 
   return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive 
 }
-var myNumber = randomNumber(3,6)
+var myNumber = randomNumber(3,6);
+
+var seattle = {
+  name: 'Seattle',
+  min: 23,
+  max: 65,
+  avgCookies: 6.3,
+}
