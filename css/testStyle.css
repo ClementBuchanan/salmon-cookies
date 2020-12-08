@@ -1,0 +1,132 @@
+/* entire document */
+body {
+  background-color: rgb(248, 235, 219);
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  width: 960px;
+  margin:  auto;
+  background-color: rgb(219, 131, 68);
+  border-radius: 10px;
+  border: 10px double rgb(65, 28, 1);
+  margin-top: 25px;
+}
+
+h1 {
+  color: rgb(65, 28, 1);
+  font-size: 3em;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  font-weight: bolder;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header span {
+  display:inline-block;
+  border: 1px solid rgb(65, 28, 1);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(142, 173, 230);
+  margin: 5px;
+}
+
+a {
+  color: rgb(65, 28, 1);
+  text-decoration: inherit;
+}
+
+/* main */
+main {
+  width: 960px;
+  margin:  auto;
+}
+main > section {
+  border: medium solid rgb(65, 28, 1);
+  border-radius: 10px;
+  background-color: bisque;
+  margin-top: 25px;
+}
+main img {
+  width: 300px;
+  border: 10px outset cornflowerblue; 
+  border-radius: 10px;
+  margin: 10px;
+}
+
+article {
+  width: 612px;
+  float: right;
+}
+
+article h2 {
+  font-size: 2em;
+  color: rgb(36, 82, 167);
+  font-weight: bold;
+  text-align: center;
+  margin: 25px;
+}
+
+article p {
+  text-align: justify;
+  color: rgb(36, 82, 167);
+  padding-right: 10px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin: 0px 35px;
+
+}
+
+h3 {
+  font-size: 2em;
+  color: rgb(36, 82, 167);
+  font-weight: bold;
+  margin: 25px 0px 5px 25px;
+}
+
+main li {
+  margin-left: 50px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+aside {
+  color: red;
+  font-size: 2em;
+}
+
+/* footer */
+footer {
+  width: 960px;
+  margin:  auto;
+  background-color: rgb(219, 131, 68);
+  border-radius: 10px;
+  border: 10px double rgb(65, 28, 1);
+  margin-top: 25px;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+footer ul {
+  display: inline-block;
+  width: 200px;
+  margin: 10px 25px 0px 25px;
+  font-size: 1.3em;
+  color: rgb(65, 28, 1);
+}
+
+footer li {
+  color: rgb(36, 82, 167);
+  padding-left: 5px;
+}
