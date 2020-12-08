@@ -3,14 +3,13 @@
 
 ## Project Name
 
-I built an app with a direct and powerful purpose. My app does all of the things that it accomplishes well. Here  I describe the purpose and functionality so those that visit my README understand the app.
+Building an application that calculates daily sales projections for each location (on a page called sales.html), I also created a public-facing page (on the homepage index.html) that is colorful, eye-catching, readable, useful, and informative.
 
-### Author: Student/Group Name
+### Author: Clement Buchanan
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * Used code from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* This was a difficult project but I'm still working on it
