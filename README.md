@@ -1,5 +1,5 @@
 # Salmon Cookie Stand
-# LAB - 05
+# LAB - 07
 
 ## Project Name
 
@@ -8,7 +8,7 @@ Building an application that calculates daily sales projections for each locatio
 ### Author: Clement Buchanan
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR]()
 * Used code from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 ### Reflections and Comments
