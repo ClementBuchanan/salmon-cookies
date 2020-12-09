@@ -41,7 +41,7 @@ function Location(name, min, max, avg){
       var hourTotal = Math.ceil(customerForTheHour * this.avg);
       this.hourlySalesArray.push(hourTotal);
       this.dailyTotals += hourTotal;
-    }
+    }                   
   },
   this.render = function() {
     this.calculateHourlySales();
