@@ -15,7 +15,6 @@ var dubai = new Location('Dubai', 11, 38, 3.7);
 var paris = new Location('Paris', 20, 38, 2.3);
 var lima = new Location('Lima', 2, 16, 4.6);
 
-
 // Constructor function
 
 seattle.intro();
