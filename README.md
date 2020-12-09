@@ -8,8 +8,8 @@ Building an application that calculates daily sales projections for each locatio
 ### Author: Clement Buchanan
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/ClementBuchanan/cookie-stand.git)
 * Used code from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 ### Reflections and Comments
-* This was a difficult project but I'm still working on it
+* This was a difficult project but I'm still working on it. Thanks to Glenn, Mickey, Nicco (TA) and Brai (TA) for their help.
