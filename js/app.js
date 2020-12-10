@@ -5,8 +5,6 @@ var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '
 
 var table = document.getElementById('cookieTable');
 var myStores = [];
-
-
 //var containerParent = document.getElementById('container-parent');
 
 function Store(name, min, max, avg) {
