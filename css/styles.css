@@ -14,7 +14,7 @@ header {
 }
 
 h1 {
-  color: rgb(65, 28, 1);
+  color: black
   font-size: 3em;
   width: 50%;
   margin: auto;
@@ -26,13 +26,16 @@ h1 {
 nav header {
   width: 960px;
   margin: left;
+  margin-bottom: 5px auto;
   text-align: center;
+  display: inline;
 }
 
 header span {
   display: inline-block;
   line-height: 100px;
   margin-left: 90px;
+  position: center;
 }
 header span:nth child(2) {
   margin-left: 30px;
