@@ -141,3 +141,8 @@ footer {
   margin:  auto;
   margin-top: 25px;
 }
+
+td, th {
+  padding: 5px;
+  border: 2px;
+}
