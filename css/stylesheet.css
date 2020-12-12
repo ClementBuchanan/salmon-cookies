@@ -133,11 +133,6 @@ h3 {
   width: 300px;
   vertical-align: center;
 }
-main div:hover {
-  background: rgb(36, 82, 167);
-  color: salmon;
-  transition: 600ms;
-}
 
 /* footer */
 footer {
