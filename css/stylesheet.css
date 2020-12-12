@@ -1,0 +1,162 @@
+/* entire document */
+body {
+  background-color: rgba(248, 235, 219, 0.363);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+/* header */
+
+h1 {
+  color: salmon;
+  font-size: 3em;
+  font-family: 'Langar', cursive;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  font-weight: normal;
+}
+
+.main-image {
+  margin-top: 5px;
+  float: center;
+  width: 960px;
+}
+
+/* nav */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 10px;
+  margin: 5px 375px;
+  width: 50%;
+  padding: 24px;
+  text-align: center;
+  font-family: 'Langar', cursive;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  height: 25px;
+  display: inline-block;
+}
+#nav-1 {
+  background: salmon;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: salmon;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid salmon;
+  border-bottom: 4px solid salmon;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+/* main */
+main {
+
+  width: 960px;
+  margin:  auto;
+}
+main > section {
+  margin-top: 30px;
+}
+main img {
+  margin-top: 10px;
+}
+main li:first-child {
+  margin-left: 0px;
+}
+main li {
+  float: left;
+  margin-left: 30px;
+}
+
+/* Article */
+
+main article {
+  width: 50%;
+  float: right;
+  margin-top: 30px;
+}
+
+article h2 {
+  font-size: 20px;
+  color: rgb(36, 82, 167);
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+article p {
+  text-align: justify;
+  color: rgb(36, 82, 167);
+  padding-right: 5px;
+  font-size: 1.1em;
+  line-height: 19px;
+  margin-top: 5px;
+  margin-left: 30px;
+  overflow: auto;
+  height: 320px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h3 {
+  font-size: 2em;
+  color: rgb(36, 82, 167);
+  font-weight: bold;
+  margin: 25px 0px 5px 25px;
+}
+#imagesMain{
+  display: inline-block;
+  position:relative;
+  padding: 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+  text-align:center;
+}
+#imagesMain img{
+  height: 400px;
+  width: 300px;
+  vertical-align: center;
+}
+main div:hover {
+  background: rgb(36, 82, 167);
+  color: salmon;
+  transition: 600ms;
+}
+
+/* footer */
+footer {
+  width: 960px;
+  height:
+  margin: auto;
+  margin-top: 25px;
+}
+
+.cookieTable {
+border: 1px;
+}
+input, label {
+    float:left;
+    margin: 5px;
+    display: inline;
+}
+
+.store {
+width: 50%;
+height: 275px;
+}

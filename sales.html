@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>salmon cookies</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel= "stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">   
 </head>
-
 <body>
-  <header>
-    <nav>
-        <span><a href="index.html">Home</a></span>
-        <span><a href="#">News</a></span>
-        <span><a href="contact.html">Contact</a></span>
-        <span><a href="#">About</a></span>
-        <span><a href="sales.html">Sales</a></span>
-      </nav>
+  <header id = "nav header">
+    <nav id="nav-1">
+      <a class="link-1" href="index.html">Home</a>
+      <a class="link-1" href="about.html">About</a>
+      <a class="link-1" href="#">Contact</a>
+      <a class="link-1" href="sales.html">Sales</a>
+    </nav>
+  </header>
     <h1>Salmon Cookies Sales</h1>
   </header>
   <main id=main image>
@@ -28,18 +27,19 @@
       <li><img src="img/frosted-cookie.jpg" alt="Placeholder"></li>
       <li><img src="img/shirt.jpg" alt="Placeholder"></li>
     </ul>
-    <form>
+  ><form>
       <fieldset>
       <label for="nLocation">New Location</label><br>
-      <input type="text" id="nlocation" name="newLocation" value=""><br>
+      <input type="text" id="nlocation" name="newLocation" id="storeLocation"><br><br>
       <label for="min">Min</label><br>
-      <input type="number" id="NewMin" name="nMin" value=""><br><br>
+      <input type="number" id="NewMin" name="nMin" id="storeMin"><br><br>
       <label for="max">Max</label><br>
-      <input type="number" id="NewMax" name="nMax" value=""><br>
+      <input type="number" id="NewMax" name="nMax" id="storeMax"><br><br>
       <label for="avg">Avg</label><br>
-      <input type="number" id="NewAvg" name="nAvg" value=""><br><br>
+      <input type="number.float" id="NewAvg" name="nAvg" id="storeAvg"><br><br>
       <input type="submit" value="Submit">
       </fieldset>
+      <hr>
     </form>
 
       <table id="cookieTable">
