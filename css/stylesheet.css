@@ -1,11 +1,15 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
 /* entire document */
 body {
   background-color: rgba(248, 235, 219, 0.363);
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 /* header */
-
 h1 {
   color: salmon;
   font-size: 3em;
@@ -16,7 +20,6 @@ h1 {
   padding: 15px;
   font-weight: normal;
 }
-
 .main-image {
   margin-top: 5px;
   float: center;
@@ -24,13 +27,6 @@ h1 {
 }
 
 /* nav */
-
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-
-body {
-  margin: 0px;
-}
 nav {
   display: inline-block;
   margin-top: 10px;
@@ -90,7 +86,6 @@ main article {
   float: right;
   margin-top: 30px;
 }
-
 article h2 {
   font-size: 20px;
   color: rgb(36, 82, 167);
@@ -98,7 +93,6 @@ article h2 {
   text-align: center;
   margin: 5px;
 }
-
 article p {
   text-align: justify;
   color: rgb(36, 82, 167);
@@ -110,9 +104,7 @@ article p {
   overflow: auto;
   height: 320px;
   font-family: 'Open Sans', sans-serif;
-
 }
-
 h3 {
   font-size: 2em;
   color: rgb(36, 82, 167);
@@ -140,10 +132,26 @@ footer {
   margin: auto;
   margin-top: 25px;
 }
-
 #cookieTable tr * {
   border: 1px solid black;
+  width: auto;
   padding: 10px;
+}
+#cookieTable {
+  background-color:rgb(247, 245, 241)
+}
+tr:nth-child(odd) {
+  background-color: rgb(241, 196, 191);
+}
+tr:first-child {
+  font-weight: bold;
+  width: 25%;
+  text-align: center;
+}
+th:first-child {
+  font-weight: bold;
+  width: 25%;
+  text-align: left;
 }
 input, label {
   float:left;
