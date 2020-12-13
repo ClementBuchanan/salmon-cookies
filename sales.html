@@ -12,7 +12,7 @@
   <header id = "nav header">
     <nav id="nav-1">
       <a class="link-1" href="index.html">Home</a>
-      <a class="link-1" href="about.html">About</a>
+      <a class="link-1" href="about_us.html">About</a>
       <a class="link-1" href="#">Contact</a>
       <a class="link-1" href="sales.html">Sales</a>
     </nav>
@@ -27,22 +27,26 @@
       <li><img src="img/frosted-cookie.jpg" alt="Placeholder"></li>
       <li><img src="img/shirt.jpg" alt="Placeholder"></li>
     </ul>
-  ><form>
+  <form id="myForm">
       <fieldset>
-      <label for="nLocation">New Location</label><br>
-      <input type="text" id="nlocation" name="newLocation" id="storeLocation"><br><br>
-      <label for="min">Min</label><br>
-      <input type="number" id="NewMin" name="nMin" id="storeMin"><br><br>
-      <label for="max">Max</label><br>
-      <input type="number" id="NewMax" name="nMax" id="storeMax"><br><br>
-      <label for="avg">Avg</label><br>
-      <input type="number.float" id="NewAvg" name="nAvg" id="storeAvg"><br><br>
-      <input type="submit" value="Submit">
+      <label for="newName">New Location</label>
+      <input type="text" id="newName" name="newName">
+     
+      <label for="newMin">Min</label>
+      <input type="number" id="newMin" name="newMin">
+      
+      <label for="newMax">Max</label>
+      <input type="number" id="newMax" name="newMax">
+      
+      <label for="newAvg">Avg</label>
+      <input type="number.float" id="newAvg" name="newAvg">
+      
+      <input type="submit" id="submit" value="submit" name="submit">
       </fieldset>
       <hr>
     </form>
 
-      <table id="cookieTable">
+    <table id="cookieTable">
 
     </table>
   </main>

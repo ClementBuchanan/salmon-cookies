@@ -66,8 +66,17 @@ function renderHeader() {
 }
 // render table footer
 
+function removeFooter() {
+  var footer = document.getElementById('total');
+  if (footer) {
+    footer.remove();
+  }
+}
+
 function renderFooter() {
+  removeFooter();
   var trElement = document.createElement('tr');
+  trElement.id = 'total';
   var thElement = document.createElement('th');
   thElement.textContent = 'Totals';
   trElement.appendChild(thElement);
@@ -75,9 +84,9 @@ function renderFooter() {
   var totalHours = 0;
   var grandTotalOfTotals = 0;
 
-  for (var i = 0; i < hours.length; i ++){
+  for (var i = 0; i < hours.length; i++) {
     totalHours = 0;
-    for (var j = 0; j < myStores.length; j++){
+    for (var j = 0; j < myStores.length; j++) {
       totalHours += myStores[j].hourlySalesArray[i];
       grandTotalOfTotals += myStores[j].hourlySalesArray[i];
     }
@@ -89,6 +98,11 @@ function renderFooter() {
   thElement.textContent = grandTotalOfTotals;
   trElement.appendChild(thElement);
   table.appendChild(trElement);
+
+  table.appendChild(trElement);
+  // thElement = document.createElement('th');
+  // thElement.textContent = 'Total';
+  // trElement.appendChild(thElement);
 }
 
 new Store('Seattle', 23, 65, 6.3);
@@ -99,15 +113,24 @@ new Store('Lima', 2, 16, 4.6);
 
 function renderAll() {
   renderHeader();
-  for (var i=0; i < myStores.length; i++){
+  for (var i = 0; i < myStores.length; i++) {
     myStores[i].render();
   }
   renderFooter();
 }
-
 renderAll();
 
-function submit() {
-  event.preventDefault();
-  
-}
+var myForm = document.getElementById('myForm');
+var newName = document.getElementById('newName');
+var newMin = document.getElementById('newMin');
+var newMax = document.getElementById('newMax');
+var newAvg = document.getElementById('newAvg');
+
+myForm.addEventListener('submit', ev => {
+  ev.preventDefault();
+  new Store(newName.value, newMin.value, newMax.value, newAvg.value);
+  var storeNumber = myStores.length - 1;
+  myStores[storeNumber].render();
+  renderFooter();
+});
+

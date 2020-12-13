@@ -32,6 +32,7 @@ body {
   margin: 0px;
 }
 nav {
+  display: inline-block;
   margin-top: 10px;
   margin: 5px 375px;
   width: 50%;
@@ -40,7 +41,6 @@ nav {
   font-family: 'Langar', cursive;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   height: 25px;
-  display: inline-block;
 }
 #nav-1 {
   background: salmon;
@@ -137,21 +137,22 @@ h3 {
 /* footer */
 footer {
   width: 960px;
-  height:
   margin: auto;
   margin-top: 25px;
 }
 
-.cookieTable {
-border: 1px;
+#cookieTable tr * {
+  border: 1px solid black;
+  padding: 10px;
 }
 input, label {
-    float:left;
-    margin: 5px;
-    display: inline;
+  float:left;
+  margin: 5px;
+  display: inline;
 }
 
 .store {
-width: 50%;
-height: 275px;
+    width: 50%;
+    height: 275px;
 }
+
